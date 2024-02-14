@@ -10,8 +10,10 @@ const customFetch = async (url: string, options: RequestInit) => {
   const headers = options.headers as Record<string, string>;
 
   return await fetch(url, {
+    // spread
     ...options,
     headers: {
+      // spread
       ...headers,
       Authorization: headers?.Authorization || `Bearer ${accessToken}`,
       "Content-Type": "application/json",
