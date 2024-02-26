@@ -1,5 +1,12 @@
+import { Col, Row } from "antd"
+
 export const Home = () => {
   return (
-    <div>Home is Working</div>
+    <div>
+      <Row>
+        <Col>
+        </Col>
+      </Row>
+    </div>
   )
 }
