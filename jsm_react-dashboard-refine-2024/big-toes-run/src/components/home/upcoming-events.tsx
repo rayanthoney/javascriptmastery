@@ -15,7 +15,7 @@ const UpcomingEvents = () => {
           gap: '8px'
         }}>
           <CalendarOutlined />
-          <Text>
+          <Text size="sm" style={{marginLeft: "0.7rem"}}>
             Upcoming Events
           </Text>
         </div>
