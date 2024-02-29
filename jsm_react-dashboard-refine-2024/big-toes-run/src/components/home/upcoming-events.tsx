@@ -16,6 +16,7 @@ const UpcomingEvents = () => {
       gqlQuery: DASHBORAD_CALENDAR_UPCOMING_EVENTS_QUERY
     }
   });
+
   return (
     <Card 
       style={{ height: '100%' }} 
